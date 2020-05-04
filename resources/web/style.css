@@ -1,0 +1,77 @@
+body {
+    background: #FBFCFF;
+    margin: 0;
+    padding: 0;
+}
+body *{
+    font-family: 'Roboto', sans-serif;
+}
+.form {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    padding: 10px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    height: 50px;
+    margin: 15px;
+}
+.messages {
+    position: absolute;
+    top: 81px;
+    left: 10px;
+    right: 10px;
+    padding: 20px;
+    bottom: 70px;
+    overflow-y: scroll;
+    border: 2px solid #F1F2F7;
+    border-radius: 6px;
+}
+.message{
+    padding: 15px 10px;
+    border-bottom: 1px solid #F1F2F7;
+    margin: 0;
+}
+.form input {
+    height: 40px;
+}
+.form input[type=text] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background: #F1F4FA;
+    border-radius: 6px;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    text-indent: 16px;
+    border: 2px solid #F1F2F7;
+}
+.form input[type=button] {
+    margin-left: 10px;
+    border: none;
+    background: #3689FF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0px 20px;
+    transition: all .2s ease-in;
+}
+.form input[type=button]:hover {
+    background: #489BF6;
+    box-shadow: 4px 4px 20px rgba(54, 137, 255, 0.4);
+    transition: all .2s ease-in;
+}
+.form .input-container {
+    flex-grow: 1;
+}
